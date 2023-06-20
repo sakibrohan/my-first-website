@@ -16,6 +16,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 80px;
 }
 .one{
     width: 50%;
@@ -40,5 +41,35 @@ section{
 }
 .first-section{
     background: url(images/top-banner.png) left top no-repeat, url(images/top-banner2.png) right top no-repeat;
-
+}
+.paragraph2{
+    width: 750px;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 100;
+}
+.big-h1{
+    font-size: 40px;
+}
+.two img{
+    padding-left: 120px;
+}
+.two{
+    width: 50%;
+}
+.hello2{
+    padding-left: 180px;
+    padding-right: 40px;
+}
+.two a{
+    background-color: rgb(248, 113, 2);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: white;
+    background-image: linear-gradient(rgb(240, 185, 66), rgb(253, 138, 6));
+    font-weight: 700;
+}
+.second-section{
+    background:url(images/dream-bg.png) right 50px no-repeat
 }
